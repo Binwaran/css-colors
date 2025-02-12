@@ -1,1 +1,19 @@
 /* Start coding here */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, hsl(0,100%,70%), hsl(240,100%, 70%));
+}
+
+
+.container {
+    width: 50%;
+    padding: 20px;
+    background: hsla(0, 50%, 100%, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px); /* ทำให้กล่องดูโปร่งใสและสวยขึ้น */
+}
