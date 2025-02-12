@@ -16,4 +16,5 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     backdrop-filter: blur(10px); /* ทำให้กล่องดูโปร่งใสและสวยขึ้น */
+    color: black;
 }
